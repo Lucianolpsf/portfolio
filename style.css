@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+span{
+    color: #2d9eff;
+}
+
+body {
+    position: relative;
+    background-image: url(./assets/img/luciano/luciano.png);
+    background-color: black;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+    z-index: 1;
+}
+
+.logo{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin-left: 40px;
+}
+
+nav > a{
+    margin: 0px 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav > a:hover {
+    color:#2d9eff;
+    transition: .5s;
+
+}
+
+.container{
+    padding-top: 15%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+}
+
+.container .hero-text{
+    margin-bottom: 3rem;
+
+}
+
+.container .hero-text h1{
+    color: white;
+    margin: 1rem 0rem 1rem;
+    font-size: 4.6rem;
+}
+
+.container .hero-text h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.container .hero-text h4{
+    color: aqua;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+/*
+ estilo do sobre 
+---------------------------------------------------------------------------------------
+*/
+
+.sobre {
+    width: 100%;
+    padding: 5%;
+    background-color: #191919;
+}
+
+.sobre > article > img {
+    height: auto;
+    max-width: 40%;
+    border-radius: 4%;
+    margin-right: 8%;
+}
+
+.sobre-mim{
+    width: 45%;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre-mim h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.sobre-mim p{
+    color: aqua;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+/* 
+Habilidades e tecnologias
+----------------------------------------------------------------------------------------------------
+*/
+.tecnologias {
+    padding: 70px;
+    background-color: #101010f3;
+    backdrop-filter: blur(6px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologias h2 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
+
+.tecnologias-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: center;
+    background-color: #1d68aab2;
+    border-radius: 15px;
+    margin: 1rem 0 4rem 0;
+    color: white;
+    padding: 1rem 0;
+    justify-content: space-around;
+    
+}
+
+.titulos-icons {
+    margin-bottom: 10px;
+   
+}
+
+.icons {
+    max-width: 80px;
+    height: auto;
+    margin: 10px 20px;
+    background-color:#8cc9ffad;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(1, 1, 153, 0.815);
+}
+
+.card-icons:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+/* 
+Projetos
+---------------------------------------------------------------------------------------------------
+*/
+
+.projetos {
+    height: 700px;
+    background-color: #161623;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projeto-card {
+    width: 17rem;
+    height: 27rem;
+    border-radius: 15px;
+    margin: 5% 1%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;  
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    
+}
+
+.projeto-card img {
+    margin-top: 20%;
+    transition: 0.3s;
+}
+
+.projeto-card p {
+    text-align: center;
+    padding: 5% 10%;
+    margin-top: 175px;
+    transition: 0.2s;
+}
+
+.projeto-card a {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid  #2d9eff ;
+    margin: 0 20%;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 35px;
+    transition: 0.2s;
+    font-size: 25px;
+}
+
+.projeto-card:hover {
+    margin-bottom: 10%;
+}
+
+.projeto-card:hover img {
+    margin-top: -40px;
+    transform: scale(0.8);
+}
+.projeto-card:hover p {
+    margin-top: -30px;
+}
+.projeto-card a:hover {
+    background-color: #2d9eff;
+} 
+
+
+/* 
+vasio
+---------------------------------------------------------------------------------------------------
+*/
+
+.vasio {
+    height: 500px;
+    
+}
+/* 
+Rodapé da pagina
+----------------------------------------------------------------------------------------------------
+*/
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2d9eff;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.fim{
+    position: absolute;
+    color: #2d9eff;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media (max-width: 900px){
+
+ /* header */
+
+body {
+    background-size:cover;
+    background-position: center center;
+}
+
+header {
+    justify-content:center;
+}
+
+.logo{
+    margin-left: 0px;
+}
+
+nav > a{
+    display:none;
+}
+
+ /* apresentação */
+.inicio {
+    height: 100vh;
+    
+}
+ .container{
+    padding-top: 35%;
+    padding-left: 5%;
+    height: 100vh;
+    width: 80%;
+    position:fixed ;
+    z-index: -1;
+
+}
+
+.container .hero-text{
+    margin-bottom: 1rem;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    background-color: #101010c7;
+}
+
+.container .hero-text h1{
+    margin: 12rem 0rem 3rem 1rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.container .hero-text h3{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    max-width: 60%;
+    padding-bottom: 3rem;
+}
+
+.container .hero-text h4{
+    display: none;
+} 
+
+.container > .hero-text > .social {
+    display: none;
+}
+
+
+ /* Sobre */
+
+.sobre > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre > article > img {
+    max-width: 70%;
+    margin: 8%;
+}
+
+.sobre-mim{
+    width: 100%;
+}
+ 
+/* tecnologias */
+
+ .tecnologias {
+    padding: 5px;
+}
+
+.tecnologias h2 {
+    font-size: 2.5em;
+}
+
+.tecnologias-icons {
+    width: 98%;
+    padding: 0.1rem 0;
+}
+
+.titulos-icons {
+    display:none;
+}
+
+.icons {
+    margin: 10px 10px;
+}
+
+.vasio {
+    height: 400px;   
+}
+
+ /* projetos */   
+    .projetos {
+        height: 100%;
+    }
+
+    .projeto-card {
+        width: 17rem;
+        height: 27rem;
+        border-radius: 15px;
+        margin: 5% 1%;
+        transition: 0.3s;
+    }
+    
+    .projeto-card img {
+        margin-top: -40px;
+        transform: scale(0.8);
+    }
+    
+    .projeto-card p {
+        margin-top: -30px;
+    }
+    
+    .projeto-card:hover {
+        margin: 5% 1%;
+    }
+
+}
