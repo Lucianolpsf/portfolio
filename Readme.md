@@ -6,4 +6,4 @@ Desta forma sera possivel demonstrar conhecimento das mais diversas tecnologias 
 
 Acesse a pagina aqui!
 
-[Portfolio](https://lucianolpsf.github.io/Portfolio/)
+[Portfolio](https://lucianolpsf.github.io/portfolio/)
