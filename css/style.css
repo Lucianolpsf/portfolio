@@ -15,7 +15,7 @@ span{
 
 body {
     position: relative;
-    background-image: url(./assets/img/luciano/luciano.png);
+    background-image: url(.././assets/img/luciano/luciano.png);
     background-color: black;
     background-size:contain;
     background-repeat: no-repeat;
@@ -35,12 +35,21 @@ header {
     box-shadow: 0 0 20px black;
     z-index: 1;
 }
-
+header img {
+    width: 30px;
+}
 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo-titulo{
     color: white;
     font-size: 36px;
     letter-spacing: 1px;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 nav > a{
@@ -142,7 +151,6 @@ Habilidades e tecnologias
     background-color: #101010f3;
     backdrop-filter: blur(6px);
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -151,6 +159,20 @@ Habilidades e tecnologias
     font-size: 50px;
     text-transform: capitalize;
     margin-top: 3rem;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tecnologias-icons {
@@ -246,7 +268,7 @@ Projetos
 }
 
 .projeto-card:hover {
-    margin-bottom: 10%;
+    margin-bottom: 30%;
 }
 
 .projeto-card:hover img {
@@ -323,145 +345,3 @@ footer p:nth-child(1){
     font-size: 14px;
 }
 
-/*
----------------------------------------Responsividade------------------------------------------
-*/
-
-@media (max-width: 900px){
-
- /* header */
-
-body {
-    background-size:cover;
-    background-position: center center;
-}
-
-header {
-    justify-content:center;
-}
-
-.logo{
-    margin-left: 0px;
-}
-
-nav > a{
-    display:none;
-}
-
- /* apresentação */
-.inicio {
-    height: 100vh;
-    
-}
- .container{
-    padding-top: 35%;
-    padding-left: 5%;
-    height: 100vh;
-    width: 80%;
-    position:fixed ;
-    z-index: -1;
-
-}
-
-.container .hero-text{
-    margin-bottom: 1rem;
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    background-color: #101010c7;
-}
-
-.container .hero-text h1{
-    margin: 12rem 0rem 3rem 1rem;
-    font-size: 2rem;
-    padding-top: 2rem;
-}
-
-.container .hero-text h3{
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    margin-bottom: 3rem;
-    max-width: 60%;
-    padding-bottom: 3rem;
-}
-
-.container .hero-text h4{
-    display: none;
-} 
-
-.container > .hero-text > .social {
-    display: none;
-}
-
-
- /* Sobre */
-
-.sobre > article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.sobre > article > img {
-    max-width: 70%;
-    margin: 8%;
-}
-
-.sobre-mim{
-    width: 100%;
-}
- 
-/* tecnologias */
-
- .tecnologias {
-    padding: 5px;
-}
-
-.tecnologias h2 {
-    font-size: 2.5em;
-}
-
-.tecnologias-icons {
-    width: 98%;
-    padding: 0.1rem 0;
-}
-
-.titulos-icons {
-    display:none;
-}
-
-.icons {
-    margin: 10px 10px;
-}
-
-.vasio {
-    height: 400px;   
-}
-
- /* projetos */   
-    .projetos {
-        height: 100%;
-    }
-
-    .projeto-card {
-        width: 17rem;
-        height: 27rem;
-        border-radius: 15px;
-        margin: 5% 1%;
-        transition: 0.3s;
-    }
-    
-    .projeto-card img {
-        margin-top: -40px;
-        transform: scale(0.8);
-    }
-    
-    .projeto-card p {
-        margin-top: -30px;
-    }
-    
-    .projeto-card:hover {
-        margin: 5% 1%;
-    }
-
-}
