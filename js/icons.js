@@ -11,24 +11,26 @@ cursosTecnologia.map((elem, indice)=>{
           
     const img = document.createElement("img");
           img.setAttribute("class","icons");
-        img.setAttribute("src","./assets/img/icons/"+elem+".png");
-        novoIcon.appendChild(img);
-
-    const h4 = document.createElement("h4");
+          img.setAttribute("alt",elem)
+          img.setAttribute("src","./assets/img/icons/"+elem+".png");
+          novoIcon.appendChild(img);
+          
+          const h4 = document.createElement("h4");
           h4.innerHTML=(elem);
           novoIcon.appendChild(h4).setAttribute("class","titulos-icons");
-
-    tecnologias.appendChild(novoIcon);
-
-})
-
-cursosDesign.map((elem)=>{
-    const novoIcon = document.createElement("div");
-          novoIcon.classList.add("card-icons");
           
-    const img = document.createElement("img");
-          img.setAttribute("class","icons");
-        img.setAttribute("src","./assets/img/icons/"+elem+".png");
+          tecnologias.appendChild(novoIcon);
+          
+      })
+      
+      cursosDesign.map((elem)=>{
+      const novoIcon = document.createElement("div");
+            novoIcon.classList.add("card-icons");
+            
+      const img = document.createElement("img");
+            img.setAttribute("class","icons");
+            img.setAttribute("alt",elem)
+            img.setAttribute("src","./assets/img/icons/"+elem+".png");
         novoIcon.appendChild(img);
 
     const h4 = document.createElement("h4");

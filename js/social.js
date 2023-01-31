@@ -13,6 +13,7 @@ social.map((element)=>{
         const link = document.createElement("a");
               link.setAttribute("href",elemento);
               link.setAttribute("target","_blank");
+              link.setAttribute("aria-label",sociais_name[indice])
         
         const icons = document.createElement("i");
               icons.setAttribute("class","fa-brands fa-"+sociais_name[indice])
