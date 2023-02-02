@@ -38,6 +38,7 @@ header {
 header img {
     width: 30px;
 }
+
 .logo{
     display: flex;
     justify-content: center;
@@ -339,9 +340,9 @@ Projetos
     font-size: 25px;
 }
 
-.projeto-card:hover {
+/* .projeto-card:hover {
     margin-bottom: 30%;
-}
+} */
 
 .projeto-card:hover img {
     margin-top: -40px;
