@@ -13,7 +13,7 @@
    }
    
 
-    #menu-burguer {
+    #menu-burger {
     height: 2rem;
     width: 2rem;
     display: flex;
@@ -25,15 +25,14 @@
     z-index: 1;
     }
 
-    .burguer {
+    .burger {
         width: 2,7rem;
         height: 3px;
         background-color:#2d9eff;
     }
 
     .nav-hide {
-        /* margin-left:100%; */
-        display: none;
+        margin-left:100%;
     }
 
     nav {
@@ -46,7 +45,8 @@
         justify-content: space-evenly;
         align-items: center;
         background-color: black;
-        transition: 1s;       
+        transition: .5s; 
+        margin-left: 0; 
     }
 
 

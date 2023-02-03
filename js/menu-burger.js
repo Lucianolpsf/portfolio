@@ -1,8 +1,8 @@
-const menu_burguer = document.getElementById("menu-burguer");
+const menu_burger = document.getElementById("menu-burger");
 const nav = document.querySelector("nav");
 const navigation = ()=>{nav.classList.toggle("nav-hide")};
 
-menu_burguer.addEventListener("click", ()=>{
+menu_burger.addEventListener("click", ()=>{
     navigation()
 })
 
