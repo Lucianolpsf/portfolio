@@ -5,39 +5,36 @@ const cursosTecnologia = ["Html 5", "Css 3", "Javascript", "Bootstrap", "Git", "
 const cursosDesign = ["Photoshop", "Illustrator", "Gimp", "Inkscape", "Darktable"];
 
 
-cursosTecnologia.map((elem, indice)=>{
-    const novoIcon = document.createElement("div");
-          novoIcon.classList.add("card-icons");
-          
-    const img = document.createElement("img");
-          img.setAttribute("class","icons");
-          img.setAttribute("alt",elem)
-          img.setAttribute("src","./assets/img/icons/"+elem+".png");
-          novoIcon.appendChild(img);
-          
-          const h4 = document.createElement("h4");
-          h4.innerHTML=(elem);
-          novoIcon.appendChild(h4).setAttribute("class","titulos-icons");
-          
-          tecnologias.appendChild(novoIcon);
-          
-      })
+cursosTecnologia.map((elem)=>{
+      novoIcon =  criaIcons()
+      renderizaImagem(elem);
+      renderizaTitulos(elem);          
+      tecnologias.appendChild(novoIcon);          
+})
       
-      cursosDesign.map((elem)=>{
+cursosDesign.map((elem)=>{
+      novoIcon =  criaIcons()
+      renderizaImagem(elem);
+      renderizaTitulos(elem);
+      design.appendChild(novoIcon);
+})
+
+function criaIcons(){
       const novoIcon = document.createElement("div");
-            novoIcon.classList.add("card-icons");
-            
+      novoIcon.classList.add("card-icons");
+      return novoIcon;
+};
+
+function renderizaImagem(elem){
       const img = document.createElement("img");
             img.setAttribute("class","icons");
             img.setAttribute("alt",elem)
             img.setAttribute("src","./assets/img/icons/"+elem+".png");
-        novoIcon.appendChild(img);
+      novoIcon.appendChild(img);
+};
 
-    const h4 = document.createElement("h4");
-          h4.innerHTML=(elem)
-          novoIcon.appendChild(h4).setAttribute("class","titulos-icons");
-
-    design.appendChild(novoIcon);
-
-})
-
+function renderizaTitulos(elem){
+      const h4 = document.createElement("h4");
+      h4.innerHTML=(elem)
+      novoIcon.appendChild(h4).setAttribute("class","titulos-icons");
+};
