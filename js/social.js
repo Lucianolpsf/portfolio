@@ -3,9 +3,10 @@ const sociais = [
     'https://www.linkedin.com/in/luciano-lopes/',
     'https://github.com/lucianolpsf',
     'https://facebook.com/lucianolpsf',
-    'https://instagram.com/lucianolpsf'];
+    'https://instagram.com/lucianolpsf',
+    'https://www.youtube.com/@proletariadovencedor'];
 
-const sociais_name = ["linkedin-in","github","facebook","instagram"];
+const sociais_name = ["linkedin-in","github","facebook","instagram","youtube"];
 
 social.map((element)=>{
 
