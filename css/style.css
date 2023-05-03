@@ -39,6 +39,10 @@ header img {
     width: 30px;
 }
 
+header > a {
+    text-decoration: none;
+}
+
 .logo{
     display: flex;
     justify-content: center;

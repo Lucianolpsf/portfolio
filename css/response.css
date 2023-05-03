@@ -16,6 +16,11 @@
         padding: 8px;
     }
 
+    header a {
+        display: flex;
+        align-items: center;
+    }
+
     header img {
         width: 20px;
     }
