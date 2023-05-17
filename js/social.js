@@ -1,6 +1,6 @@
 const social = [...document.querySelectorAll(".social")];
 const sociais = [
-    'https://www.linkedin.com/in/luciano-lopes/',
+    'https://www.linkedin.com/in/lucianolpsf/',
     'https://github.com/lucianolpsf',
     'https://facebook.com/lucianolpsf',
     'https://instagram.com/lucianolpsf',
