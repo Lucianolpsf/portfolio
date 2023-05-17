@@ -4,7 +4,7 @@ const sociais = [
     'https://github.com/lucianolpsf',
     'https://facebook.com/lucianolpsf',
     'https://instagram.com/lucianolpsf',
-    'https://www.youtube.com/@proletariadovencedor'];
+    'https://www.youtube.com/@proletariovencedor?sub_confirmation=1'];
 
 const sociais_name = ["linkedin-in","github","facebook","instagram","youtube"];
 
