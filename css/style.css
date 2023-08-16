@@ -219,13 +219,14 @@ Habilidades e tecnologias
 /* ----------------------- Galeria--------------------------------------------- */
 .container-gallery {
     position: relative;
-    padding: 15px;
+    padding: 50px;
     max-width: 100%;
     margin: 0 auto;
-  }
-  
-  .gallery-wrapper {
+}
+
+.gallery-wrapper {
     overflow-x: auto;
+    padding: 50px;
   }
   
   .arrow-left,
@@ -237,14 +238,14 @@ Habilidades e tecnologias
     bottom: 0;
     font-size: 35px;
     line-height: 250px;
-    width: 50px;
+    width: 75px;
     color: #fff;
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
     opacity: 0.1;
     cursor: pointer;
     border: none;
-  }
+   }
   
   .arrow-left:hover,
   .arrow-right:hover {
