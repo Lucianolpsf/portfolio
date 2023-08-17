@@ -34,7 +34,7 @@ function renderizaImagem(elem){
 };
 
 function renderizaTitulos(elem){
-      const h4 = document.createElement("h4");
-      h4.innerHTML=(elem)
-      novoIcon.appendChild(h4).setAttribute("class","titulos-icons");
+      const h3 = document.createElement("h3");
+      h3.innerHTML=(elem)
+      novoIcon.appendChild(h3).setAttribute("class","titulos-icons");
 };

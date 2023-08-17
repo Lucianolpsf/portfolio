@@ -22,17 +22,17 @@
     <title>Luciano Lopes</title>
 </head>
 <body>
-    <header title="navegacao">       
+    <header>       
             <div class="logo">
-                <img src="./assets/img/luciano/logo.png" alt="">
-                <h2 class="logo-titulo">Port<span>folio</span></h2>
+                <img src="./assets/img/luciano/logo.png" alt="logo do site">
+                <h1 class="logo-titulo">Port<span>folio</span></h1>
             </div>
             <div id="menu-burger">
                 <span class="burger"></span>
                 <span class="burger"></span>
                 <span class="burger"></span>
             </div>
-            <nav class="nav-hide" title="navegacao">
+            <nav class="nav-hide">
                 <a href="#inicio">Inicio</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#tecnologias">Tecnologias</a>
@@ -42,49 +42,56 @@
 
     <main>
 
-        <section class="inicio" id="inicio" title="apresentacao">
+        <section class="inicio" id="inicio">
             <article class="container">
                 <div class="hero-text">
-                    <h4> Bem vindo, meu nome é </h4>
+                    <p> Bem vindo, meu nome é </p>
                     <h1> Luciano <span>Lopes</span> </h1>
-                    <h3> Analista e desenvolvedor de sistemas </h3>
+                    <p> Analista e desenvolvedor de sistemas </p>
                            
                     <div class="social"> <!-- adicionado dinamicamente por js     -->  </div>
                 </div>
             </article>
         </section>
 
-        <section class="sobre" id="sobre" title="sobre">
+        <section class="sobre" id="sobre">
+            <h2>Sobre mim</h2>
             <article class="main">
                 <img src="./assets/img/luciano/lopes.jpg" alt="Luciano Lopes">
                 <div class="sobre-mim">
-                    <h5> Desenvolvedor </h5>
+                    <h3> Desenvolvedor </h3>
                     <p>
-                        Olá! Eu sou apaixonado por tecnologia, possuo formação em Analise e desenvolvimento de sistemas, 
-                        assim como nivel técnico em eletrônica, e em computação grafica. Adoro a fotografia como um hobby. Possuo
-                        afinidade em desenvolvimento SQL/TSQL. Atuo hoje como instrutor de TI no SENAI. 
+                        Olá! Eu sou apaixonado por tecnologia, possuo formação em Analise e desenvolvimento de sistemas, especialização em banco de dados,
+                        assim como nivel técnico em eletrônica. Adoro a fotografia como um hobby. Possuo
+                        afinidade em desenvolvimento SQL/TSQL e tecnologias de front-end. Atuo hoje como instrutor/professor de TI. 
                     </p>
                 </div>
         
             </article>
         </section> 
-        <section class="tecnologias" id="tecnologias" title="tecnologias">
-            <div class="desenvolvimento">
-                <h2>desenvol<span>vimento</span></h2>
-                <div class="tecnologias-icons" id="tecnologia1"> <!-- Icones adicionados dinamicamente pelo js --> </div>
-            </div>
-            
-            <div class="design">
-                <h2>Desi<span>gn</span></h2>
+        <section class="tecnologias" id="tecnologias">
+
+            <h2>Stacks</h2>
+
+            <article>
+                <div class="desenvolvimento">
+                    <h2>Desenvol<span>vimento</span></h2>
+                    <div class="tecnologias-icons" id="tecnologia1"> <!-- Icones adicionados dinamicamente pelo js --> </div>
+                </div>
                 
-                <div class="tecnologias-icons" id="tecnologia2"> <!-- Icones adicionados dinamicamente pelo js --> </div>
-            </div>
+                <div class="design">
+                    <h2>Desi<span>gn</span></h2>
+                
+                    <div class="tecnologias-icons" id="tecnologia2"> <!-- Icones adicionados dinamicamente pelo js --> </div>
+                </div>
+            </article>
             
         </section>
 
-       <section class="vasio"></section>
+       <div class="vasio"></div>
    
-       <section class="projetos" id="projetos" title="projetos">
+       <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
         <article class="container-gallery">
             <button class="arrow-left control" aria-label="Previous image">◀</button>
             <button class="arrow-right control" aria-label="Next Image">▶</button>
@@ -123,9 +130,10 @@
         </section>
         
     </main>
-    <footer title="social midias">
-        <p> Luciano Lopes</p>
-        <article class="social"> <!-- Icones adicionados dinamicamente pelo js --> </article>
+    <footer>
+        <h2> Luciano Lopes</h2>
+        <div class="social"> <!-- Icones adicionados dinamicamente pelo js --> </div>
+        <h3><small>midias sociais</small></h3>
     </footer>
     
     <script src="./js/social.js"></script>
