@@ -453,3 +453,22 @@ footer > h3{
     font-size: 14px;
 }
 
+::-webkit-scrollbar{
+    width: 0.6rem;
+    background-color: #101010;
+}
+
+::-webkit-scrollbar-button{
+    background-color: #0e3353;
+    border-radius: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #2d9eff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #247dcb;
+    border-radius: 5px;
+}
