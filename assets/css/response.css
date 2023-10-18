@@ -18,7 +18,19 @@
     header a {
         display: flex;
         align-items: center;
-        padding: 25% 100%;
+        padding: 2%;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    nav > a {
+        height: 100%;
+        padding-left: 50%;
+        padding-right: 50%;
     }
 
     header img {
