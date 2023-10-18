@@ -34,7 +34,7 @@ Acesse a pagina aqui!
 - [x] Boas vindas.
     - [x] Formação academica.
     - [x] Redes sociais.
-<div align="center">
+
    <a href="https://www.linkedin.com/in/lucianolpsf/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/><a/>
     <a href="https://www.youtube.com/@proletariovencedor?sub_confirmation=1" target="_blank">
@@ -43,10 +43,9 @@ Acesse a pagina aqui!
         <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"/><a/>
     <a href="https://instagram.com/lucianolpsf" target="_blank">
         <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"/><a/>
-</div>
 
-   - [x] Stack de desenvolvimento
-<div align="center">
+- [x] Stack de desenvolvimento
+
     <img align="center" alt="html" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
     <img align="center" alt="css" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
     <img align="center" alt="javascript" height="34" width="34" src="https://lucianolpsf.github.io/portfolio/assets/img/icons/Javascript.png">
@@ -58,10 +57,10 @@ Acesse a pagina aqui!
     <img align="center" alt="git" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
     <img align="center" alt="github" height="40" width="40" src="https://img.icons8.com/?size=512&id=bVGqATNwfhYq&format=png">
     <img align="center" alt="trello" height="40" width="40" src="https://img.icons8.com/?size=512&id=21049&format=png">
-</div>
+
     
-   - [x] Stack de design
-<div align="center">
+- [x] Stack de design
+
     <img align="center" alt="Illustrator" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg">
     <img align="center" alt="Photoshop" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg">
     <img align="center" alt="Gimp" height="45" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg">
@@ -69,4 +68,3 @@ Acesse a pagina aqui!
     <img align="center" alt="Figma" height="35" width="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
     <img align="center" alt="Darkt" height="40" width="40" src="https://lucianolpsf.github.io/portfolio/assets/img/icons/Darktable.png">
 
-</div>
